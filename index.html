@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Basket Ball Score</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="teams-details">
+        <h3>HOME</h3>
+        <div class="display-score">
+          <span id="home-point-el" class="points"></span>
+        </div>
+        <div class="increment-points">
+          <button id="one-points" onclick="incrementOnePt()">+1</button>
+          <button id="two-points" onclick="incrementTwoPt()">+2</button>
+          <button id="three-points" onclick="incrementThreePt()">+3</button>
+        </div>
+      </div>
+
+      <div class="teams-details">
+        <h3>GUEST</h3>
+        <div class="display-score">
+          <span id="guest-point-el" class="points"></span>
+        </div>
+        <div class="increment-points">
+          <button id="" onclick="incrementOnePtG()">+1</button>
+          <button id="" onclick="incrementTwoPtG()">+2</button>
+          <button id="" onclick="incrementThreePtG()">+3</button>
+        </div>
+      </div>
+    </div>
+
+    <div><button id="reset-btn" onclick="resetScore()">Reset</button></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
